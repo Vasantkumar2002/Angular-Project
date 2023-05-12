@@ -3,6 +3,9 @@ table {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    background-color: #ddd;
+    border-radius: 2%;
+    box-shadow: 2px,2px,2px black;
   }
   
   th,
