@@ -1,0 +1,45 @@
+<div id="form">
+<h2 class="producttitle">Enter Details of the Product</h2>
+<div style="overflow: hidden;">
+<div class="formbox">
+<span class="name">Name:</span>
+<input class="input" type="text" [(ngModel)]="name" placeholder="Enter the name of the product">    
+</div>
+<div class="formbox">
+    <span class="name">Type:</span>
+    <select class="input" [(ngModel)]="type">
+      <option value="">Select type</option>
+      <option value="fruits">Fruits</option>
+      <option value="vegetables">Vegetables</option>
+      <option value="salads">Salads</option>
+      <option value="juices">Juices</option>
+      <option value="milk-products">Milk products</option>
+    </select>
+  </div>  
+<div class="formbox">
+<span class="name">Image:</span>
+<input class="input" type="text" [(ngModel)]="image" placeholder="Enter the image name of the product">
+</div>
+<div class="formbox">
+<span class="name">Proteins:</span>
+<input class="input" type="text" [(ngModel)]="protein"placeholder="Enter the protein%">
+</div>
+<div class="formbox">
+    <span class="name">Fats:</span>
+    <input class="input" type="text" [(ngModel)]="fats"placeholder="Enter the fats%">
+    </div>
+    <div class="formbox">
+        <span class="name">Carbs:</span>
+        <input class="input" type="text" [(ngModel)]="carbohydrates"placeholder="Enter the carbpohydrates%">
+        </div>
+        <div class="formbox">
+            <span class="name">Calories:</span>
+            <input class="input" type="text" [(ngModel)]="Calories"placeholder="Enter the Calories%">
+            </div>
+</div>    
+<div class="alert alert-info" *ngIf="errors.length>0">
+<ul >
+<li *ngFor="let x of errors">{{x}}</li>
+</ul>
+</div>
+<div style="margin-left:140px;"><button class=" button1" (click)="submit()">Add Product</button></div>

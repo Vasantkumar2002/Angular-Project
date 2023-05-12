@@ -1,0 +1,21 @@
+<mat-toolbar class="menu-bar">
+    <span class="title">The Food Coach</span> 
+    <ul>
+      <li><a (click)="home()">{{"menubar.home" | translate}}</a></li>
+      <li><a (click)="dietplan()">{{"menubar.dietplan" | translate}}</a></li>
+      <li><a (click)="feedback()">{{"menubar.feedback" | translate}}</a></li>
+      <li><a (click)="create()">{{"menubar.create" | translate}}</a></li>
+      <li><a (click)="forum()">{{"menubar.forum" | translate}}</a></li>
+      <button mat-icon-button (click)="logout()">
+        <mat-icon>logout</mat-icon></button>
+
+    </ul>
+    <!-- routerLink="/Dietplan" -->
+    <span [style.marginLeft]="'100px'" [style.color]="'white'">
+      <select [(ngModel)]="lang" (change)="changeLang()">
+         <option *ngFor="let x of languages" value={{x.value}}>
+           {{x.name}}</option>
+      </select>
+   </span>
+  </mat-toolbar>
+  <router-outlet></router-outlet>

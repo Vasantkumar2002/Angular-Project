@@ -1,0 +1,6 @@
+<mat-form-field appearance="fill">
+<mat-label>Input</mat-label>
+<input matInput [(ngModel)]="query">
+</mat-form-field>
+<button mat-raised-button color="primary" class="b1" (click)="AddQuestion()">Submit</button>
+<app-adminforumpage *ngFor="let x of forumlist" [q]="x"></app-adminforumpage>

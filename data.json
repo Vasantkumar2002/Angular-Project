@@ -1,0 +1,1208 @@
+{
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD4Iu",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "id": 1
+    },
+    {
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gqw8m",
+      "username": "rahul",
+      "lastname": "krishna",
+      "type": "user",
+      "id": 3
+    },
+    {
+      "email": "roger@gmail.com",
+      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE1AC",
+      "username": "roger",
+      "lastname": "Federer",
+      "type": "admin",
+      "id": 4
+    },
+    {
+      "email": "kiran@gmail.com",
+      "password": "$2a$10$QxNGN1c9fIgWiQ5KHNwZnOWlZq8cJm/xM27oriUKLGptO8s9Pb2bq",
+      "username": "kiran",
+      "type": "user",
+      "id": 5
+    },
+    {
+      "email": "jackson@gmail.com",
+      "password": "$2a$10$.ZPImtvO49SX6YMHepjxV.PXhJoEDXuxnCtHG2bQ2KY/NErZ0SGYW",
+      "username": "jackson",
+      "type": "admin",
+      "lastname": "Mike",
+      "id": 6
+    },
+    {
+      "email": "naresh@gmail.com",
+      "password": "$2a$10$OhQd/XS2d3PAiWrNnYWXleoGC.2bMdZajo/yd5BSAxbGeqLw7YtEO",
+      "username": "naresh",
+      "type": "user",
+      "lastname": "Mike",
+      "id": 7
+    },
+    {
+      "email": "harish1@gmail.com",
+      "password": "$2a$10$svGznVNLN48xPFxadLPhLOxfYzOIpTgi8wahFfuptRKoXlAAZWsqa",
+      "username": "harish1",
+      "type": "user",
+      "id": 8
+    },
+    {
+      "email": "padarthivasantkumar@gmail.com",
+      "password": "$2a$10$mK/9BLQTQE/TnBfP0GX/S.MXgPXH2iy/2HEMFBvyKJvWnoHSQli0C",
+      "username": "Vasanth",
+      "type": "admin",
+      "id": 9
+    },
+    {
+      "email": "padarthivasantkumar123@gmail.com",
+      "password": "$2a$10$iwz/KkHQ6mt7X6bY83m9OuCES8bJrnwPUYon0.MgL6LwpD70muhTu",
+      "username": "Kumar",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "vasanth@gmail.com",
+      "password": "$2a$10$XYi/0Z/qurgmwbyes17.WezaSRzn/2/wArNTEOnevaVO06f4dMY7W",
+      "username": "vasanth",
+      "type": "admin",
+      "id": 11
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "type": "Fruits",
+      "image": "Apple.jpg",
+      "Fat": "0.3",
+      "Carbohydrates": "25",
+      "Protein": "0.5",
+      "Calories": "95",
+      "qty": "qty:1",
+      "description": "The apple itself is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible. When harvested, apples are usually roundish, 5–10 cm (2–4 inches) in diameter, and some shade of red, green, or yellow in colour; they vary in size, shape, and acidity depending on the variety, of which there are thousands. "
+    },
+    {
+      "id": 2,
+      "name": "Mushroom",
+      "type": "Vegetables",
+      "image": "Mushroom.jpg",
+      "Fat": "0.2",
+      "Carbohydrates": "2.3",
+      "Protein": "2.2",
+      "Calories": "15",
+      "qty": "qty:100g",
+      "description": "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe bird cherry or European bird cherry. "
+    },
+    {
+      "id": 3,
+      "name": "Banana",
+      "type": "Fruits",
+      "image": "Banana.jpg",
+      "Fat": "0.4",
+      "Carbohydrates": "27",
+      "Protein": "1.3",
+      "Calories": "105",
+      "qty": "qty:1",
+      "description": "A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called plantains, distinguishing them from dessert bananas."
+    },
+    {
+      "id": 4,
+      "name": "Caesar salad",
+      "type": "Salads",
+      "image": "Caesar salad.jpg",
+      "Fat": "20",
+      "Carbohydrates": "10",
+      "Protein": "20",
+      "Calories": "300",
+      "qty": "qty:1",
+      "description": "A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa."
+    },
+    {
+      "id": 5,
+      "name": "kiwi",
+      "type": "Fruits",
+      "image": "kiwi.jpg",
+      "Fat": "0.5",
+      "Carbohydrates": "14.7",
+      "Protein": "1.1",
+      "Calories": "61",
+      "qty": "qty:1",
+      "description": "Kiwifruit (often shortened to kiwi in North American, British and continental European English) or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia."
+    },
+    {
+      "id": 6,
+      "name": "Pineapple",
+      "type": "Fruits",
+      "image": "Pineapple.jpg",
+      "Fat": "1.2",
+      "Carbohydrates": "119",
+      "Protein": "4.9",
+      "Calories": "4520",
+      "qty": "qty:1",
+      "description": "The pineapple[2][3] (Ananas comosus) is a tropical plant with an edible fruit; it is the most economically significant plant in the family Bromeliaceae."
+    },
+    {
+      "id": 7,
+      "name": "Mango",
+      "type": "Fruits",
+      "image": "Mango.jpg",
+      "Fat": "0.5",
+      "Carbohydrates": "25",
+      "Protein": "1",
+      "Calories": "99",
+      "qty": "qty:1",
+      "description": "Mango is known as the king of fruits. It is also the national fruit of India. This pulpy fruit grows during the summer season. The cultivation of mango started around 6000 years ago. They come in both flavours of sweet and sour. Moreover, they are also very rich in minerals and nutrients. Through essay on mango, we will study about the fruit in detail."
+    },
+    {
+      "id": 8,
+      "name": "Watermelon",
+      "type": "Fruits",
+      "image": "Watermelon.jpg",
+      "Fat": "0.2",
+      "Carbohydrates": "11.6",
+      "Protein": "0.9",
+      "Calories": "46",
+      "qty": "qty:1",
+      "description": "Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo. The sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist."
+    },
+    {
+      "id": 9,
+      "name": "Papaya",
+      "type": "Fruits",
+      "image": "papaya.jpg",
+      "Fat": "0.26",
+      "Carbohydrates": "10.82",
+      "Protein": "1.89",
+      "Calories": "43",
+      "qty": "qty:1",
+      "description": "The papaya is a small, sparsely branched tree, usually with a single stem growing from 5 to 10 m (16 to 33 ft) tall, with spirally arranged leaves confined to the top of the trunk. The lower trunk is conspicuously scarred where leaves and fruit were borne. The leaves are large, 50–70 cm (20–28 in) in diameter, deeply palmately lobed, with seven lobes. All plant parts contain latex in articulated laticifers."
+    },
+    {
+      "id": 10,
+      "name": "Pomegranate",
+      "type": "Fruits",
+      "image": "Pomegranate.jpg",
+      "Fat": "1",
+      "Carbohydrates": "52",
+      "Protein": "3.5",
+      "Calories": "234",
+      "qty": "qty:1",
+      "description": "Japanese-American style seaweed salad gets its trademark flavor from toasted sesame oil, which is combined with soy sauce, sugar, vinegar, and salt. "
+    },
+    {
+      "id": 11,
+      "name": "Tomato",
+      "type": "vegetables",
+      "image": "Tomato.jpg",
+      "Fat": "0.2",
+      "Carbohydrates": "3.9",
+      "Protein": "0.9",
+      "Calories": "18",
+      "qty": "qty:100g",
+      "description": "black bean salad is black beans (canned or freshly made) with corn kernels (canned, frozen, or fresh). Parsley, basil or cilantro add an herby note to the flavors."
+    },
+    {
+      "id": 12,
+      "name": "Potato",
+      "type": "Vegetables",
+      "image": "Potato.jpg",
+      "Fat": "0.2",
+      "Carbohydrates": "36.g",
+      "Protein": "4.3",
+      "Calories": "161",
+      "qty": "qty:1",
+      "description": "Muffuletta Olive Salad. A briny, bright, spicy olive spread to go with crackers, in sandwiches or to top grilled fish, chicken and pork. "
+    },
+    {
+      "id": 13,
+      "name": "Pumpkin",
+      "type": "Vegetables",
+      "image": "Pumpkin.jpg",
+      "Fat": "0.5",
+      "Carbohydrates": "12",
+      "Protein": "2",
+      "Calories": "50",
+      "qty": "qty:1",
+      "description": "Broccoli Crunch Salad is a classic salad recipe. Broccoli, dried cranberries, bacon, sunflower seeds and finely diced red onion is tossed in a simple dressing."
+    },
+    {
+      "id": 14,
+      "name": "Peas",
+      "type": "Vegetables",
+      "image": "Peas.jpg",
+      "Fat": "0.6",
+      "Carbohydrates": "22",
+      "Protein": "8",
+      "Calories": "125",
+      "qty": "qty:100g",
+      "description": "Seasoned Squid Salad (Chuka Ika Sansai) is prepared using traditional Japanese Chinese cuisine flavorings and methods.   The flavor of ginger helps tie together the various flavors, spices, crisp vegatables, and sliced squid to produce a delicious fully cooked entrée that is immediately ready to eat upon thawing. This is an excellent appetizer or side dish."
+    },
+    {
+      "id": 15,
+      "name": "Cabbage",
+      "type": "Vegetables",
+      "image": "Cabbage.jpg",
+      "Fat": "0.2",
+      "Carbohydrates": "5.8",
+      "Protein": "1.3",
+      "Calories": "2500",
+      "qty": "qty:1",
+      "description": "Roasted Butternut Squash Brussel Sprout Salad finished with a maple dijon glaze, pecans and cranberries. The perfect Thanksgiving or Christmas side dish!"
+    },
+    {
+      "id": 16,
+      "name": "Carrot",
+      "type": "Vegetables",
+      "image": "Carrot.jpg",
+      "Fat": "0.24",
+      "Carbohydrates": "9.58",
+      "Protein": "0.93",
+      "Calories": "4100",
+      "qty": "qty:1",
+      "description": "Gala apples are covered in a thin yellow to orange skin, highlighted with pink to red stripes that vary in hue dependent upon the apples maturity. Their dense flesh is creamy yellow and crisp, offering a mildly sweet flavor and flora aroma. Gala’s that are allowed to reach the peak of their sweetness on the tree will have a deeper red hue and a slightly sweeter flavor."
+    },
+    {
+      "id": 17,
+      "name": "Broccoli",
+      "type": "vegetables",
+      "image": "Broccoli.jpg",
+      "Fat": "0.6",
+      "Carbohydrates": "11",
+      "Protein": "4.2",
+      "Calories": "55",
+      "qty": "qty:1",
+      "description": "Green apples are light green in colour and have crisp and juicy white flesh, which has a tart taste compared to red apples."
+    },
+    {
+      "id": 18,
+      "name": "Corn",
+      "type": "Vegetables",
+      "image": "Corn.jpg",
+      "Fat": "2",
+      "Carbohydrates": "41",
+      "Protein": "5",
+      "Calories": "177",
+      "qty": "qty:1",
+      "description": "The cherry tomato is a type of small round tomato believed to be an intermediate genetic admixture between wild currant-type tomatoes and domesticated garden tomatoes. "
+    },
+    {
+      "id": 19,
+      "name": "Grapes",
+      "type": "Fruits",
+      "image": "Grapes.jpg",
+      "Fat": "0.24",
+      "Carbohydrates": "27.33",
+      "Protein": "1.09",
+      "Calories": "104",
+      "qty": "qty:100g",
+      "description": "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit, generally occurring in clusters."
+    },
+    {
+      "id": 20,
+      "name": "Cauliflower",
+      "type": "Vegetables",
+      "image": "Cauliflower.jpg",
+      "Fat": "0.3",
+      "Carbohydrates": "5",
+      "Protein": "2",
+      "Calories": "25",
+      "qty": "qty:1",
+      "description": "Blueberries Are Low in Calories But High in Nutrients The blueberry bush is a flowering shrub that produces berries with a bluish, purple hue — also known as blueberries."
+    },
+    {
+      "id": 21,
+      "name": "Fruit salad",
+      "type": "Salads",
+      "image": "Fruit salad.jpg",
+      "Fat": "0",
+      "Carbohydrates": "15",
+      "Protein": "1",
+      "Calories": "100",
+      "qty": "qty:1",
+      "description": "Strawberries are low-growing herbaceous plants with a fibrous root system and a crown from which arise basal leaves."
+    },
+    {
+      "id": 22,
+      "name": "Orange",
+      "type": "Fruits",
+      "image": "Orange.jpg",
+      "Fat": "0.2",
+      "Carbohydrates": "15.4",
+      "Protein": "1.2",
+      "Calories": "62",
+      "qty": "qty:1",
+      "description": "The tree of the sweet orange often reaches 6 metres (20 feet) in height. The broad, glossy, evergreen leaves are medium-sized and ovate; the petioles (leafstalks) have narrow wings. Its white five-petaled flowers are very fragrant. "
+    },
+    {
+      "id": 23,
+      "name": "greek salad",
+      "type": "Salads",
+      "image": "greek salad.jpg",
+      "Fat": "9.2",
+      "Carbohydrates": "3.6",
+      "Protein": "3.8",
+      "Calories": "106",
+      "qty": "qty:1",
+      "description": "Watermelon is a sweet and refreshing low calorie summer snack. It provides hydration and also essential nutrients, including vitamins, minerals, and antioxidants. "
+    },
+    {
+      "id": 24,
+      "name": "Cobb salad",
+      "type": "Salads",
+      "image": "Cobb salad.jpg",
+      "Fat": "18",
+      "Carbohydrates": "7",
+      "Protein": "13",
+      "Calories": "234",
+      "qty": "qty:1",
+      "description": "Honeydew is a sugar-rich sticky liquid, secreted by aphids and some scale insects as they feed on plant sap."
+    },
+    {
+      "id": 25,
+      "name": "Caprese salad",
+      "type": "Salads",
+      "image": "Caprese salad.jpg",
+      "Fat": "11",
+      "Carbohydrates": "8",
+      "Protein": "15",
+      "Calories": "200",
+      "description": "Red seedless grapes are firm, crisp, and sweet with a mild, neutral flavor."
+    },
+    {
+      "id": 26,
+      "name": "Butter",
+      "type": "Milk-Products",
+      "image": "Butter.jpg",
+      "Fat": "11.5",
+      "Carbohydrates": "0",
+      "Protein": "14",
+      "Calories": "102",
+      "qty": "qty:14g",
+      "description": "Green seedless grapes are firm, crisp, and sweet with a mild, neutral flavor."
+    },
+    {
+      "id": 27,
+      "name": "Cream",
+      "type": "Milk-Products",
+      "image": "Cream.jpg",
+      "Fat": "5.5",
+      "Carbohydrates": "0.4",
+      "Protein": "0.4",
+      "Calories": "51",
+      "qty": "qty:14g",
+      "description": "Green seedless grapes are firm, crisp, and sweet with a mild, neutral flavor."
+    },
+    {
+      "id": 28,
+      "name": "Ghee",
+      "type": "Milk-Products",
+      "image": "Ghee.jpg",
+      "Fat": "100",
+      "Carbohydrates": "0",
+      "Protein": "0",
+      "Calories": "9000",
+      "qty": "qty:14g",
+      "description": "Grapefruit is low in calories and high in nutrients that contribute to skin and cardiovascular health, among others."
+    },
+    {
+      "id": 29,
+      "name": "Milk",
+      "type": "Milk-Products",
+      "image": "Milk.jpg",
+      "Fat": "3.6",
+      "Carbohydrates": "4.8",
+      "Protein": "3.2",
+      "Calories": "6100",
+      "qty": "qty:100ml",
+      "description": "kiwi fruit is a true berry and has furry brownish green skin. The firm translucent green flesh has numerous edible purple-black seeds embedded around a white centre."
+    },
+    {
+      "id": 30,
+      "name": "Ice-cream",
+      "type": "Milk-Products",
+      "image": "Ice-cream.jpg",
+      "Fat": "11",
+      "Carbohydrates": "23",
+      "Protein": "3.5",
+      "Calories": "207",
+      "qty": "qty:100g",
+      "description": "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. "
+    },
+    {
+      "id": 31,
+      "name": "Amla juice",
+      "type": "Juices",
+      "image": "Amla.jpg",
+      "Fat": "0.5",
+      "Carbohydrates": "9.6",
+      "Protein": "0.9",
+      "Calories": "44",
+      "qty": "qty:100ml",
+      "description": "Green coconuts are prized for their refreshing and healthy water, as well as their tender meat."
+    },
+    {
+      "id": 32,
+      "name": "Orange-juice",
+      "type": "juices",
+      "image": "Orange juice.jpg",
+      "Fat": "0.5",
+      "Carbohydrates": "26",
+      "Protein": "2",
+      "Calories": "112",
+      "qty": "qty:240ml",
+      "description": "A pineapple is a tropical fruit with a tough outer shell that looks like a pine cone with edible yellow fruit inside. "
+    },
+    {
+      "id": 33,
+      "name": "Pomegranate-Juice",
+      "type": "Juices",
+      "image": "Pomegranate juice.jpg",
+      "Fat": "0",
+      "Carbohydrates": "32",
+      "Protein": "1",
+      "Calories": "130",
+      "qty": "qty:100ml",
+      "description": "Orange juice is a liquid extract of the orange tree fruit, produced by squeezing or reaming oranges. "
+    },
+    {
+      "id": 34,
+      "name": "Grape Juice",
+      "type": "Juices",
+      "price": "7.99",
+      "image": "Grape-Juice.jpg",
+      "Fat": "0",
+      "Carbohydrates": "37",
+      "Protein": "1",
+      "Calories": "152",
+      "description": "Grapes juice is a liquid extract of the grapes tree fruit, produced by squeezing or reaming grapes.",
+      "qty": "qty:100 ml"
+    },
+    {
+      "id": 35,
+      "name": "Apple Juice",
+      "type": "Juices",
+      "image": "Apple_Juice.jpg",
+      "Fat": "0",
+      "Carbohydrates": "4",
+      "Protein": "1",
+      "Calories": "14",
+      "qty": "qty:240ml",
+      "description": "Apple juice is a liquid extract of the Apple tree fruit, produced by squeezing or reaming Apple."
+    },
+    {
+      "id": 36,
+      "name": "Pineapple Juice",
+      "type": "Juices",
+      "image": "Pineapple_Juice.jpg",
+      "Fat": "1",
+      "Carbohydrates": "32",
+      "Protein": "1",
+      "Calories": "132",
+      "qty": "qty:240ml",
+      "description": "Pineapple juice is a liquid extract of the Pineapple tree fruit, produced by squeezing or reaming Pineapple."
+    },
+    {
+      "id": 37,
+      "name": "Mango Juice",
+      "type": "Juices",
+      "image": "Mango_Juice.jpg",
+      "Fat": "0",
+      "Carbohydrates": "29",
+      "Protein": "1",
+      "Calories": "120",
+      "qty": "qty:240ml",
+      "description": "Mango juice is a liquid extract of the Mango tree fruit, produced by squeezing or reaming Mango."
+    },
+    {
+      "id": 38,
+      "name": "Strawberry Juice",
+      "type": "Juices",
+      "image": "Strawberry_Juice.jpg",
+      "Fat": "1",
+      "Carbohydrates": "20",
+      "Protein": "1",
+      "Calories": "80",
+      "qty": "qty:240ml",
+      "description": "Strawberry  juice is a liquid extract of the Strawberry  tree fruit, produced by squeezing or reaming Strawberry."
+    },
+    {
+      "id": 39,
+      "name": "Canberry Juice",
+      "type": "Juices",
+      "image": "Canberry_Juice.jpg",
+      "Fat": "0.1",
+      "Carbohydrates": "11.5",
+      "Protein": "1",
+      "Calories": "45",
+      "qty": "qty:240ml",
+      "description": "Canberry  juice is a liquid extract of the Canberry tree fruit, produced by squeezing or reaming Canberry."
+    },
+    {
+      "id": 40,
+      "name": "Cherry Juice",
+      "type": "Juices",
+      "image": "Cherry_Juice.jpg",
+      "Fat": "0",
+      "Carbohydrates": "31",
+      "Protein": "1",
+      "Calories": "120",
+      "qty": "qty:240ml",
+      "description": "Cherry juice is a liquid extract of the Cherry tree fruit, produced by squeezing or reaming Cherry ."
+    }
+  ],
+  "forum": [
+    {},
+    {
+      "id": 2,
+      "question": "What is nutrition?",
+      "responses": []
+    },
+    {
+      "id": 3,
+      "question": "what are the different types of diet??",
+      "responses": []
+    },
+    {
+      "id": 4,
+      "question": "what is intermittent diet?",
+      "responses": []
+    }
+  ],
+  "dietryplan": [
+    {
+      "id": 1,
+      "name": "Ketogenic diet",
+      "image": "ketogenic.jpg",
+      "image1": "ketogenic1.jpg",
+      "calories": "The calories needed for a ketogenic diet is 2000 Calories/day",
+      "description": "The Ketogenic diet (or Keto diet, for short) is a low-carb, high-fat diet. It involves drastically lowering carbohydrate intake and replacing it with fat.As a result, this reduction in carbs puts your body into a metabolic state called ketosis.When ketosis occurs, your body becomes very efficient at burning fat for energy.It’s diet benefits may include:Weight loss.Improved insulin sensitivity.Lower HDL cholesterol levels, blood pressure and blood sugar.The Keto diet has even been linked to reducing symptoms of epilepsy.There are plenty of delicious Keto diet meal options. You can find many seafood recipes on Wild Alaskan and shop for groceries at the same time. Moreover, if you are looking for meat recipes and groceries, check out Butcher box! They have great recipes and meat products as well",
+      "Break": "Break-fast:Scrambled eggs cooked with butter or coconut oil, topped with avocado and salsa",
+      "Lunch": "Lunch:Salad with grilled chicken or salmon, avocado, cucumber, and olive oil dressing",
+      "Dinner": "Dinner:Baked salmon with cauliflower rice and roasted brussels sprouts"
+    },
+    {
+      "id": 2,
+      "name": "Mediterranean diet",
+      "image": "Mediterranean.jpg",
+      "image1": "Mediterranean1.jpg",
+      "calories": "The calories needed for a mediterranean diet is 1200 Calories/day",
+      "description": "The Mediterranean diet is a way of eating based on the traditional cuisine of countries bordering the Mediterranean Sea. While there is no single definition of the Mediterranean diet, it is typically high in vegetables, fruits, whole grains, beans, nut and seeds, and olive oil.",
+      "Break": "Break-fast:Fruit smoothie with Greek yogurt, mixed berries, and a handful of spinach",
+      "Lunch": "Lunch:Grilled chicken or fish with a side of Greek salad (tomatoes, cucumbers, red onion, feta cheese, and olives)",
+      "Dinner": "Dinner:Whole grain pasta with tomato sauce, olives, and grilled chicken or shrimp"
+    },
+    {
+      "id": 3,
+      "name": "Veganism diet",
+      "image": "Veganism.jpg",
+      "image1": "Veganism1.jpg",
+      "calories": "The calories needed for a veganism diet is 2000-2500 Calories/day",
+      "description": "A vegan diet is a plant-based eating pattern that excludes all animal products, including meat, dairy, eggs, and honey. Instead of animal products, people center their meals around plant based foods including: fruits, vegetables, whole grains, legumes, nuts, and seeds.",
+      "Break": "Break-fast:Smoothie bowl made with frozen berries, banana, almond milk, and topped with granola and sliced almonds",
+      "Lunch": "Lunch:Chickpea salad sandwich with mashed chickpeas, avocado, cucumber, and spinach on whole grain bread",
+      "Dinner": "Dinner:Vegan lasagna made with tofu ricotta, tomato sauce, and mixed vegetables"
+    },
+    {
+      "id": 4,
+      "name": "Intermittent fasting",
+      "image": "Intermittent.jpg",
+      "image1": "Intermittent1.jpg",
+      "calories": "The calories needed for a Intermittent diet is 2000 Calories/day",
+      "description": "Intermittent fasting is an eating pattern where you cycle between periods of eating and fasting. It does not say anything about which foods to eat, but rather when you should eat them. There are several different intermittent fasting methods, all of which split the day or week into eating periods and fasting periods.",
+      "Break": "Break-fast:Oatmeal with almond milk, chia seeds, and sliced fruit",
+      "Lunch": "Lunch:Grilled chicken or tofu salad with mixed greens, vegetables, and a light dressing",
+      "Dinner": "Dinner:Grilled steak or chicken with roasted vegetables (such as broccoli and sweet potatoes) and quinoa or brown rice"
+    },
+    {
+      "id": 5,
+      "name": "Raw Food Diet",
+      "image": "raw.jpg",
+      "image1": "raw1.jpg",
+      "calories": "The calories needed for a Raw-Food diet is 2000 Calories/day",
+      "description": "A raw food diet is a way of eating that avoids foods that have been heated over a certain temperature or processed in any way1234. It is mostly or completely plant-based, but some people also consume raw animal products125. The diet may have some health benefits, but also some risks and challenges.",
+      "Break": "Break-fast:Fresh fruit smoothie with almond milk, bananas, and mixed berries",
+      "Lunch": "Lunch:Raw vegan Caesar salad made with kale or romaine lettuce, cashew-based dressing, and croutons made from dehydrated flaxseed bread",
+      "Dinner": "Dinner:Raw vegan zucchini pasta with creamy avocado pesto and sun-dried tomatoes"
+    },
+    {
+      "id": 6,
+      "name": "Low carbohydrate Diet",
+      "image": "low.jpg",
+      "image1": "vasanth.jpg",
+      "calories": "The carbohydrates needed for a Low carbohydrate diet is 20-100 Carbs/day",
+      "description": "A low-carb diet is one that restricts carbohydrates, primarily found in sugary foods, pasta, and bread. Instead of eating carbs, you eat whole foods including natural proteins, fats, and vegetables. Studies show that low-carb diets can result in weight loss and improved health markers.",
+      "Break": "Break-fast:Greek yogurt with mixed berries and nuts",
+      "Lunch": "Grilled chicken or tofu salad with mixed greens, vegetables, and a light vinaigrette dressing",
+      "Dinner": "Dinner:Baked chicken with a side of roasted vegetables and a green salad"
+    },
+    {
+      "id": 7,
+      "name": "Low Fat Diet",
+      "image": "low1.jpg",
+      "image1": "vasanth1.jpg",
+      "calories": "The fats needed for a Low fat diet is 20-50g Fats/day",
+      "description": "A low-fat diet is one that restricts fat, and often saturated fat and cholesterol as well. Low-fat diets are intended to reduce the occurrence of conditions such as heart disease and obesity. For weight loss, they perform similarly to a low-carbohydrate diet, since macronutrient composition does not determine weight loss success."
+    },
+    {
+      "id": 8,
+      "name": "Carnivore Diet",
+      "image": "Carni.jpg",
+      "image1": "carni1.jpg",
+      "calories": "The calories needed for a Carnivore diet is 1500-1700 Calories/day",
+      "description": "The carnivore diet consists almost exclusively of animal-based foods, such as meat, fish, eggs, and low lactose dairy. A person following the diet may also use honey, salt, pepper, and zero-carb seasonings."
+    },
+    {
+      "id": 9,
+      "name": "Macrobiotic Diet",
+      "image": "Macro.jpg",
+      "image1": "Macro1.jpg",
+      "calories": "The calories needed for a Macrobiotic diet is 2000 Calories/day",
+      "description": "A macrobiotic diet is a lifestyle that stresses balance and harmony1 and aims to avoid toxins2. It is a plant-based diet3 that focuses on whole grains, vegetables, soups, and some animal foods4. It encourages eating unprocessed, organic, and locally grown foods5 and includes gentle exercise and behavioral changes1. It is based on the concepts of Buddhist spirituality and physical wellness."
+    },
+    {
+      "id": 10,
+      "name": "Low Sodium Diet",
+      "image": "low2.jpg",
+      "calories": "The calories needed for a Low sodium diet is 2000 Calories/day",
+      "description": "A low sodium diet is an eating plan that people can follow to reduce the amount of sodium in their diet. Doctors may recommend a low sodium diet to help manage certain medical conditions, such as high blood pressure and kidney or liver disease. Although the body does need some sodium each day, for most people, the required amount is low."
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 6360,
+      "name": "Arjun",
+      "email": "arjun@gmail.com",
+      "type": "Fruits",
+      "message": "This is a perfect collaboration. Looking forward to work again."
+    },
+    {
+      "id": 8927,
+      "name": "Kiran",
+      "email": "kiran@gmail.com",
+      "type": "Vegetables",
+      "message": "This was an excellent project experience. Budget was too good."
+    },
+    {
+      "id": 7321,
+      "name": "Arun",
+      "email": "arun@gmail.com",
+      "type": "Juices",
+      "message": "Superb to Work with you. Looking forward to collaborate more."
+    },
+    {
+      "id": 1530,
+      "name": "Narayan",
+      "email": "narayan@gmail.com",
+      "type": "Milk-Product",
+      "message": "Content Marketing was so so good."
+    },
+    {
+      "id": 6894,
+      "name": "Nilesh",
+      "email": "nilesh@gmail.com",
+      "type": "Fruits",
+      "message": "Best in this area of work"
+    },
+    {
+      "id": 8934,
+      "name": "Josh",
+      "email": "josh@gmail.com",
+      "type": "Fruits",
+      "message": "Digital Marketing is challenging but it was done so clean here."
+    },
+    {
+      "id": 815,
+      "name": "Kethan",
+      "email": "kethan@gmail.com",
+      "type": "Vegetables",
+      "message": "This is the place for Digital Marketing"
+    },
+    {
+      "id": 7442,
+      "name": "Roger",
+      "email": "roger@gmail.com",
+      "type": "Salads",
+      "message": "My Ecommerce business picked up because of these guyz"
+    },
+    {
+      "id": 2446,
+      "name": "Ashish",
+      "email": "ashish@gmail.com",
+      "type": "Salads",
+      "message": "These people are specialist in Ecommerce space"
+    },
+    {
+      "id": 8615,
+      "name": "Randy",
+      "email": "randy@gmail.com",
+      "type": "Market Analysis",
+      "message": "Market analysis is best done here"
+    },
+    {
+      "id": 2685,
+      "name": "vasanth",
+      "email": "vasanth@gmail.com",
+      "type": "Fruits",
+      "message": "Good nutrition diet suggestions."
+    },
+    {
+      "id": 7058,
+      "name": "Sai ganesh",
+      "email": "ganesh@gmail.com",
+      "type": "Salads",
+      "message": "Good salads and very tasty"
+    }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "type": "Fruits",
+      "image": "Apple.jpg",
+      "Fat": "Fat%:0g",
+      "Carbohydrates": "Carbohydrates%:4g",
+      "Protein": "Protein%:1g",
+      "Calories": "Calories%:14g",
+      "description": "The apple itself is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible. When harvested, apples are usually roundish, 5–10 cm (2–4 inches) in diameter, and some shade of red, green, or yellow in colour; they vary in size, shape, and acidity depending on the variety, of which there are thousands. "
+    },
+    {
+      "id": 2,
+      "name": "Grapes",
+      "type": "Fruits",
+      "image": "Grapes.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit, generally occurring in clusters."
+    },
+    {
+      "id": 3,
+      "name": "Banana",
+      "type": "Fruits",
+      "image": "Banana.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called plantains, distinguishing them from dessert bananas."
+    },
+    {
+      "id": 4,
+      "name": "Orange",
+      "type": "Fruits",
+      "image": "Orange.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "The tree of the sweet orange often reaches 6 metres (20 feet) in height. The broad, glossy, evergreen leaves are medium-sized and ovate; the petioles (leafstalks) have narrow wings. Its white five-petaled flowers are very fragrant. "
+    },
+    {
+      "id": 5,
+      "name": "kiwi",
+      "type": "Fruits",
+      "image": "kiwi.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Kiwifruit (often shortened to kiwi in North American, British and continental European English) or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia."
+    },
+    {
+      "id": 6,
+      "name": "Pineapple",
+      "type": "Fruits",
+      "image": "Pineapple.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "The pineapple[2][3] (Ananas comosus) is a tropical plant with an edible fruit; it is the most economically significant plant in the family Bromeliaceae."
+    },
+    {
+      "id": 7,
+      "name": "Mango",
+      "type": "Fruits",
+      "image": "Mango.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Mango is known as the king of fruits. It is also the national fruit of India. This pulpy fruit grows during the summer season. The cultivation of mango started around 6000 years ago. They come in both flavours of sweet and sour. Moreover, they are also very rich in minerals and nutrients. Through essay on mango, we will study about the fruit in detail."
+    },
+    {
+      "id": 8,
+      "name": "Watermelon",
+      "type": "Fruits",
+      "image": "Watermelon.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo. The sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist."
+    },
+    {
+      "id": 9,
+      "name": "Papaya",
+      "type": "Fruits",
+      "image": "papaya.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "The papaya is a small, sparsely branched tree, usually with a single stem growing from 5 to 10 m (16 to 33 ft) tall, with spirally arranged leaves confined to the top of the trunk. The lower trunk is conspicuously scarred where leaves and fruit were borne. The leaves are large, 50–70 cm (20–28 in) in diameter, deeply palmately lobed, with seven lobes. All plant parts contain latex in articulated laticifers."
+    },
+    {
+      "id": 10,
+      "name": "Pomegranate",
+      "type": "Fruits",
+      "image": "Pomegranate.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Japanese-American style seaweed salad gets its trademark flavor from toasted sesame oil, which is combined with soy sauce, sugar, vinegar, and salt. "
+    },
+    {
+      "id": 11,
+      "name": "Tomato",
+      "type": "vegetables",
+      "image": "Tomato.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "black bean salad is black beans (canned or freshly made) with corn kernels (canned, frozen, or fresh). Parsley, basil or cilantro add an herby note to the flavors."
+    },
+    {
+      "id": 12,
+      "name": "Potato",
+      "type": "Vegetables",
+      "image": "Potato.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Muffuletta Olive Salad. A briny, bright, spicy olive spread to go with crackers, in sandwiches or to top grilled fish, chicken and pork. "
+    },
+    {
+      "id": 13,
+      "name": "Pumpkin",
+      "type": "Vegetables",
+      "image": "Pumpkin.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Broccoli Crunch Salad is a classic salad recipe. Broccoli, dried cranberries, bacon, sunflower seeds and finely diced red onion is tossed in a simple dressing."
+    },
+    {
+      "id": 14,
+      "name": "Peas",
+      "type": "Vegetables",
+      "image": "Peas.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Seasoned Squid Salad (Chuka Ika Sansai) is prepared using traditional Japanese Chinese cuisine flavorings and methods.   The flavor of ginger helps tie together the various flavors, spices, crisp vegatables, and sliced squid to produce a delicious fully cooked entrée that is immediately ready to eat upon thawing. This is an excellent appetizer or side dish."
+    },
+    {
+      "id": 15,
+      "name": "Cabbage",
+      "type": "Vegetables",
+      "image": "Cabbage.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Roasted Butternut Squash Brussel Sprout Salad finished with a maple dijon glaze, pecans and cranberries. The perfect Thanksgiving or Christmas side dish!"
+    },
+    {
+      "id": 16,
+      "name": "Carrot",
+      "type": "Vegetables",
+      "image": "Carrot.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Gala apples are covered in a thin yellow to orange skin, highlighted with pink to red stripes that vary in hue dependent upon the apples maturity. Their dense flesh is creamy yellow and crisp, offering a mildly sweet flavor and flora aroma. Gala’s that are allowed to reach the peak of their sweetness on the tree will have a deeper red hue and a slightly sweeter flavor."
+    },
+    {
+      "id": 17,
+      "name": "Broccoli",
+      "type": "vegetables",
+      "image": "Broccoli.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Green apples are light green in colour and have crisp and juicy white flesh, which has a tart taste compared to red apples."
+    },
+    {
+      "id": 18,
+      "name": "Corn",
+      "type": "Vegetables",
+      "image": "Corn.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "The cherry tomato is a type of small round tomato believed to be an intermediate genetic admixture between wild currant-type tomatoes and domesticated garden tomatoes. "
+    },
+    {
+      "id": 19,
+      "name": "Mushroom",
+      "type": "Vegetables",
+      "image": "Mushroom.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe bird cherry or European bird cherry. "
+    },
+    {
+      "id": 20,
+      "name": "Cauliflower",
+      "type": "Vegetables",
+      "image": "Cauliflower.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Blueberries Are Low in Calories But High in Nutrients The blueberry bush is a flowering shrub that produces berries with a bluish, purple hue — also known as blueberries."
+    },
+    {
+      "id": 21,
+      "name": "Fruit salad",
+      "type": "Salads",
+      "image": "Fruit salad.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Strawberries are low-growing herbaceous plants with a fibrous root system and a crown from which arise basal leaves."
+    },
+    {
+      "id": 22,
+      "name": "Caesar salad",
+      "type": "Salads",
+      "image": "Caesar salad.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa."
+    },
+    {
+      "id": 23,
+      "name": "greek salad",
+      "type": "Salads",
+      "image": "greek salad.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Watermelon is a sweet and refreshing low calorie summer snack. It provides hydration and also essential nutrients, including vitamins, minerals, and antioxidants. "
+    },
+    {
+      "id": 24,
+      "name": "Cobb salad",
+      "type": "Salads",
+      "image": "Cobb salad.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Honeydew is a sugar-rich sticky liquid, secreted by aphids and some scale insects as they feed on plant sap."
+    },
+    {
+      "id": 25,
+      "name": "Caprese salad",
+      "type": "Salads",
+      "image": "Caprese salad.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Red seedless grapes are firm, crisp, and sweet with a mild, neutral flavor."
+    },
+    {
+      "id": 26,
+      "name": "Butter",
+      "type": "Milk-Products",
+      "image": "Butter.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Green seedless grapes are firm, crisp, and sweet with a mild, neutral flavor."
+    },
+    {
+      "id": 27,
+      "name": "Cream",
+      "type": "Milk-Products",
+      "image": "Cream.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Green seedless grapes are firm, crisp, and sweet with a mild, neutral flavor."
+    },
+    {
+      "id": 28,
+      "name": "Ghee",
+      "type": "Milk-Products",
+      "image": "Ghee.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Grapefruit is low in calories and high in nutrients that contribute to skin and cardiovascular health, among others."
+    },
+    {
+      "id": 29,
+      "name": "Milk",
+      "type": "Milk-Products",
+      "image": "Milk.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "kiwi fruit is a true berry and has furry brownish green skin. The firm translucent green flesh has numerous edible purple-black seeds embedded around a white centre."
+    },
+    {
+      "id": 30,
+      "name": "Ice-cream",
+      "type": "Milk-Products",
+      "image": "Ice-cream.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. "
+    },
+    {
+      "id": 31,
+      "name": "Amla juice",
+      "type": "Juices",
+      "image": "Amla.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Green coconuts are prized for their refreshing and healthy water, as well as their tender meat."
+    },
+    {
+      "id": 32,
+      "name": "Orange-juice",
+      "type": "juices",
+      "image": "Orange juice.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "A pineapple is a tropical fruit with a tough outer shell that looks like a pine cone with edible yellow fruit inside. "
+    },
+    {
+      "id": 33,
+      "name": "Pomegranate-Juice",
+      "type": "Juices",
+      "image": "Pomegranate juice.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Orange juice is a liquid extract of the orange tree fruit, produced by squeezing or reaming oranges. "
+    },
+    {
+      "id": 34,
+      "name": "Grape Juice",
+      "type": "Juices",
+      "price": "7.99",
+      "image": "Grape-Juice.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Grapes juice is a liquid extract of the grapes tree fruit, produced by squeezing or reaming grapes.",
+      "qty": "500 ml"
+    },
+    {
+      "id": 35,
+      "name": "Apple Juice",
+      "type": "Juices",
+      "image": "Apple_Juice.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Apple juice is a liquid extract of the Apple tree fruit, produced by squeezing or reaming Apple."
+    },
+    {
+      "id": 36,
+      "name": "Pineapple Juice",
+      "type": "Juices",
+      "image": "Pineapple_Juice.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Pineapple juice is a liquid extract of the Pineapple tree fruit, produced by squeezing or reaming Pineapple."
+    },
+    {
+      "id": 37,
+      "name": "Mango Juice",
+      "type": "Juices",
+      "image": "Mango_Juice.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Mango juice is a liquid extract of the Mango tree fruit, produced by squeezing or reaming Mango."
+    },
+    {
+      "id": 38,
+      "name": "Strawberry Juice",
+      "type": "Juices",
+      "image": "Strawberry_Juice.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Strawberry  juice is a liquid extract of the Strawberry  tree fruit, produced by squeezing or reaming Strawberry."
+    },
+    {
+      "id": 39,
+      "name": "Canberry Juice",
+      "type": "Juices",
+      "image": "Canberry_Juice.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Canberry  juice is a liquid extract of the Canberry tree fruit, produced by squeezing or reaming Canberry."
+    },
+    {
+      "id": 40,
+      "name": "Cherry Juice",
+      "type": "Juices",
+      "image": "Cherry_Juice.jpg",
+      "Fat": "Fat:0g",
+      "Carbohydrates": "Carbohydrates:4g",
+      "Protein": "Protein:1g",
+      "Calories": "Calories:14g",
+      "description": "Cherry juice is a liquid extract of the Cherry tree fruit, produced by squeezing or reaming Cherry ."
+    }
+  ],
+  "faqs": []
+}
