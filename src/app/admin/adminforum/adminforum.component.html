@@ -1,8 +1,7 @@
-<div class="form-group">
-    <label for="query">Input:</label>
-    <input type="text" class="form-control" [(ngModel)]="query" name="query" id="query">
-  </div>
-  
+<mat-form-field appearance="fill">
+    <mat-label class="custom-label">Query</mat-label>
+    <textarea matInput [(ngModel)]="query" rows="5" cols="50"></textarea>
+  </mat-form-field>
   <button mat-raised-button color="primary" class="b1" (click)="AddQuestion()">Submit</button>
   
   <app-adminforumpage *ngFor="let x of forumlist" [q]="x"></app-adminforumpage>

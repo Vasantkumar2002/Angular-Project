@@ -1,4 +1,12 @@
 .custom-label {
     font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .b1 {
+    margin-top: 10px;
+    background-color: #2196F3;
+    color: white;
+    font-weight: bold;
   }
   

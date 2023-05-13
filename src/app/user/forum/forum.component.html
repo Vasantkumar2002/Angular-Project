@@ -1,6 +1,6 @@
 <mat-form-field appearance="fill">
   <mat-label class="custom-label">Query</mat-label>
-  <input matInput [(ngModel)]="query">
+  <textarea matInput [(ngModel)]="query" rows="5" cols="50"></textarea>
 </mat-form-field>
 <button mat-raised-button color="primary" class="b1" (click)="AddQuestion()">Submit</button>
 
